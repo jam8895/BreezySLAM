@@ -575,6 +575,7 @@ scan_update(
                 {
                     scan->obst_x_mm[scan->obst_npoints] = (float)scan->x_mm[j];
                     scan->obst_y_mm[scan->obst_npoints] = (float)scan->y_mm[j];
+                    printf(scan.obst_x_mm, scan.obst_y_mm)
                     scan->obst_npoints++;
                 }
             }
